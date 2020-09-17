@@ -1,0 +1,490 @@
+/* Theme colors 
+
+#a7bc5b
+#8da242
+
+Fonts:
+
+*/
+
+/* -------------Contact ---------------- */
+
+*{
+    font-size: 18px;
+}
+
+@font-face{
+    font-family: 'BowlbyOne';
+    src: url(../fonts/BowlbyOneSC-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Forum';
+    src: url(../fonts/Forum-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Arvo';
+    src: url(../fonts/Arvo-Regular.ttf);
+}
+
+#contact{
+    background-color: #F5F5F5;
+    padding: 15px 10px;
+    border-top: 1px solid rgba(85, 85, 85, 0.1);
+}
+
+#contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    color: #323232;
+    font-family: Forum;
+    
+}
+
+#contact h2::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 160px;
+    background: #2a9df4;
+    margin: 15px auto 5px;
+    bottom: -16px;
+}
+
+#contact h4{
+    color: #323232;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: BowlbyOne;
+    font-size: 130%;
+}
+
+#contact h5{
+    font-family: Arvo;
+    font-size: 100%;
+    margin-top: 10px;
+}
+
+#contact .address, #contact .phone, #contact .email, #contact .social{
+    text-align: center;
+}
+
+#contact a{
+    text-decoration: none;
+    color: #000;
+    font-family: Forum;
+    font-size: 120%;
+    line-height: 0.8px;
+    letter-spacing: 1px;
+}
+
+#contact .fa-envelope, .fa-phone-square-alt, .fa-share-alt{
+    color: #2aa3f4;
+    font-size: 200%;
+}
+
+
+#contact .fa-map-marker-alt{
+    color: #2aaaf4;
+    font-size: 200%;
+}
+
+/* #contact .fa-twitter{
+    color: #1da1f2;
+    font-size: 200%;
+}
+
+#contact .fa-facebook{
+    background-color: #fff;
+    color: #3b5998;
+    font-size: 200%;
+} */
+
+#contact .fa-instagram{
+
+    background-color: #fff;
+    color: #e1306c;
+    font-size: 130%;
+    margin: auto 5px;
+}
+#contact .fa-youtube{
+    color: #FF0000;
+    background-color: #FFF;
+    font-size: 130%;
+    margin: auto 5px;
+}
+
+
+
+/* ------------------------ Our Team -------------------------*/
+
+#team {
+    background-color: #F5F5F5;
+    padding: 15px 10px;
+}
+
+
+#team h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    color: #323232;
+    font-family: Forum;
+    margin-bottom: 30px;
+}
+
+#team h2::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 170px;
+    background: #2a9df4;
+    margin: 15px auto 5px;
+    bottom: -16px;
+}
+
+#team h2 span{
+    font-size: 110%;
+    font-weight: 600;
+}
+
+#team .profile{
+    margin-top: 10px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#team .profile .pic {
+    opacity: 1;
+    position: relative;
+    display: block;
+}
+
+#team .profile .pic .profile-pic{
+    height: auto;
+    width: 96%;
+    padding: 4px;
+    border: 1px solid #2a9df4;
+}
+
+#team .profile .desc, #team .profile .desc-member{
+    background-color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 2;
+    opacity: 1;
+    padding: 5px;
+    border: none;
+}
+
+#team .profile .desc h3, #team .profile .desc-member h3{
+    font-family: Arvo;
+    font-size: 120%;
+    margin-bottom: 1px;
+    color: #2a9df4;
+}
+#team .profile .desc h4, #team .profile .desc-member h4{
+    font-family: Forum;
+    font-size: 110%;
+    margin: 1px;
+    color: #555;
+}
+#team .profile .desc h5, #team .profile .desc-member h5{
+    font-family: Forum;
+    font-size: 90%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #555;
+}
+
+#team .profile .desc-member{
+    background-color: #fff;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 2;
+    opacity: 1;
+    padding: 5px;
+    border: none;
+}
+
+#team .profile .desc-member h3{
+    font-size: 100%;
+}
+
+#team .profile .desc-member h4{
+    font-size: 96%;
+}
+#team .profile .desc-member h5{
+    font-size: 85%;
+}
+
+
+
+/* ------------------------ event and achievements -------------------------*/
+#events h1,
+#events h2,
+#events h3,
+#events h4,
+#events h5,
+#events h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #1f1f1f;
+    margin: 0
+}
+
+#events h1 {
+    font-size: 100%;
+}
+
+#events h2 {
+    font-size: 100%;
+}
+
+#events h3 {
+    font-size: 100%;
+}
+
+#events h4 {
+    font-size: 100%;
+    color: #07528d;
+    margin-top: 25px;
+}
+
+#events h5 {
+    font-size: 100%;
+}
+
+#events h6 {
+    font-size: 100%;
+}
+
+#events h1 a,
+#events h2 a,
+#events h3 a,
+#events h4 a,
+#events h5 a,
+#events h6 a {
+    color: #212121;
+    text-decoration: none !important;
+    opacity: 1
+}
+
+#events h1 a:hover,
+#events h2 a:hover,
+#events h3 a:hover,
+#events h4 a:hover,
+#events h5 a:hover,
+#events h6 a:hover {
+    opacity: .8
+}
+
+#events a {
+    color: #1f1f1f;
+    text-decoration: none;
+    outline: none;
+}
+
+
+#events .full>img {
+    width: 100%;
+}
+
+
+#events p {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    font-size: 90%;
+    font-weight: 300;
+    line-height: 30px;
+    color: #4a4a49;
+}
+
+#events .heading_main h2 {
+    font-size: 200%;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+    margin: 0 0 30px 0;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    background-image: url(../images/heading_main_border.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+#events .heading_main h2 span {
+    color: #2a9df4;
+}
+
+#events .heading_main h2 span2 {
+    color: #2a92f4;
+}
+
+#events span1 {
+    color: #2a6af4;
+}
+
+#events .heading_main.text_align_center {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#events .padding_0 {
+    padding: 0;
+}
+
+#events .design {
+    height: 300px;
+}
+
+#events .full {
+    float: left;
+    width: 100%;
+}
+
+#events .heading_main {
+    float: left;
+    display: flex;
+}
+
+
+#events .margin-top_20 {
+    margin-top: 20px;
+}
+
+#events .margin-top_30 {
+    margin-top: 30px;
+}
+
+#events .margin-top_50 {
+    margin-top: 100px;
+}
+
+#events .padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#events .padding_event {
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+#events .margin-bottom_30 {
+    margin-bottom: 30px;
+}
+
+#events .carousel a.carousel-control-prev {
+    background: #2a9df4;
+    opacity: 1;
+    width: 55px;
+    height: 50px;
+    border-radius: 0;
+    top: 200px;
+}
+
+#events .carousel a.carousel-control-next {
+    background: #2a9df4;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    top: 200px;
+
+}
+
+
+
+
+
+#events .full h4 {
+    width: 86%;
+    background: #fff;
+    margin: 0 7%;
+    padding: 0;
+    color: #2a9df4;
+    text-align: center;
+    font-size: 100%;
+    min-height: 70px;
+    line-height: 70px !important;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .2);
+    margin-top: -35px;
+}
+
+
+
+#events .silver_bg {
+    background: #eee;
+}
+
+#events .blue_bg {
+    background: #2aedf4;
+}
+
+
+/* ------------------------ event and achievement responsive-------------------------*/
+
+
+/* only small tablets */
+ @media (min-width: 761px) and (max-width: 990px) {
+ 
+	
+	.carousel a.carousel-control-prev {
+      left: 20px;
+      top:200px;
+    }
+	.carousel a.carousel-control-next {
+      right: 20px;
+      top:200px;
+    }
+    .design{
+     height:210px;
+    }
+     .autocross{
+     height:220px;
+     }
+}
+/* mobile or only mobile */
+ @media (max-width: 760px) {
+     
+.carousel a.carousel-control-prev {
+    left: 20px;
+    top:200px;
+    width: 45px;
+    height: 40px;
+}
+
+.carousel a.carousel-control-next {
+    right: 20px;
+    top:200px;
+    width: 45px;
+    height: 40px;
+}
+
+}
+ 

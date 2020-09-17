@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    
+    <title>NEKC</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/all.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Custom font-->
+    <!-- <link rel="stylesheet" href="fonts/stylesheet.e9dc714d.css"> -->
+    <!-- Swiper-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/swiper/css/swiper.min.css">
+    <!-- AOS - AnimationOnScroll-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/aos/aos.css">
+    <!-- Custom Scrollbar-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <!-- Theme stylesheet-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2/css/style.default.d1b89a2d.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/varkala/1-2/css/custom.0a822280.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/logo.png">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+        <style>
+          .header-area {
+            width: 100%;
+            text-align: center;
+            font-family: poppins;
+            color:#fff;
+            font-size:4.5em;
+            text-shadow: 0 2px 5px rgba(0,0,0,.5);
+
+          }
+          .header-area span{
+            color:#2aa3f4;
+            font-size:70px;
+          }
+        </style>
+            <script src="js/onload.js"></script>
+        </head>
+        <body onbeforeunload="myFunction()">
+<!-- navbar-->
+<!-- <header class="header header-fixed-top bg-gray-100">  -->
+        <!-- Top Bar-->
+        <!-- Top Bar End-->
+        <nav class="navbar navbar-expand-lg bg-transparent border-0 shadow-0 navbar-light px-lg-5 fixed-top bg-gray-100">
+            <strong>DBATU Racing</strong>  
+          <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg class="svg-icon navbar-icon">
+              <use xlink:href="#menu-hamburger-1"> </use>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse ml-2" id="navbarContent">
+            <ul class="navbar-nav mt-3 mt-lg-0">
+              <li class="nav-item dropdown"><a onclick="document.getElementById('navbarContent').classList.remove('show');" class="nav-link" id="homeDropdown" href="index.html" aria-haspopup="true" aria-expanded="false">Home</a>
+                
+              </li>
+              <!-- /Megamenu end-->
+              <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" id="Events" aria-haspopup="true" data-toggle="dropdown" aria-expanded="false">Events</a>
+                <div class="dropdown-menu bg-gray-100" aria-labelledby="Events">
+                  <a class="dropdown-item" href="events1.html">Team Technospark</a>
+                  <a class="dropdown-item" href="events.html">Team Drifters</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="Team" aria-haspopup="true" data-toggle="dropdown" aria-expanded="false">Team</a>
+                <div class="dropdown-menu bg-gray-100" aria-labelledby="Team">
+                  <a class="dropdown-item" href="team1.html">Team Technospark</a>
+                  <a class="dropdown-item" href="team.html">Team Drifters</a>
+                  <a class="dropdown-item" href="team2.html">Team Drifters 2018-19</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="Gallery" aria-haspopup="true" data-toggle="dropdown" aria-expanded="false">Gallery</a>
+                <div class="dropdown-menu bg-gray-100" aria-labelledby="Gallery">
+                  <a class="dropdown-item" href="gallery1.html">Team Technospark</a>
+                  <a class="dropdown-item" href="gallery.html">Team Drifters</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a onclick="document.getElementById('navbarContent').classList.remove('show');" class="nav-link" id="Contact" href="#contact" aria-haspopup="true" aria-expanded="false">Contact</a>
+                
+              </li>
+              
+            </ul>
+            
+          </div>
+        </nav>
+
+<section id="events">
+    <!-- Itoduction section -->
+      <div class="section margin-top_50 padding_event">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="full">
+                          <div class="heading_main text_align_center">
+                 <h2><span>National Electric kart </span>championship</h2>
+                          </div>
+              <div class="full">
+                <p>National Electric kart championship is India’s biggest educational motorsport event. It
+                              challenges engineers to design, build and compete as a team with their own single racing
+                              car. The annual event run by the Credible Future India Pvt. Ltd. attracts 30 teams
+                              representing universities from all corners of the India. It challenges students to design,
+                              build and race a one man, open-wheeled race car assuming that they have been engaged
+                              by a manufacturing firm to produce a prototype car for evaluation as a potential
+                              production item. The team’s hard work culminates in march at the actual Formula Student
+                              event which takes place at Bhopal. It is here that teams demonstrate to the judges, in a
+                              series of events, that the car is fit for purpose as well as presenting a business plan that
+                              sells their concept to potential investors. The Formula Student competition features two
+                              main disciplines, the <b>Static Events</b> and the <b>Dynamic Events</b>.</p>
+              </div>
+              
+                      </div>
+                  </div>
+          <div class="col-md-6">
+                      <div class="full">
+                          <img src="images/nekc.jpg" alt="NEKC" style="max-height:550px;"/>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div><br>
+    <!-- end section -->
+    <!-- static events section -->
+      <div class="section ">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="full">
+                          <div class="heading_main text_align_center">
+                 <h2><span>Static </span>Events</h2>
+                          </div>
+              </div>
+                  </div>
+          <div class="col-md-4">
+                      <div class="full  ">
+                         <img class="img-responsive design" src="images/design.jpg" alt="Design" /> 
+                         <h4>Design Judging</h4>
+                         <br>
+                      </div>
+                  </div>
+          <div class="col-md-4">
+                      <div class="full  ">
+                          <img class="img-responsive" src="images/cost_analysis.png" alt="Cost Analysis" style="max-height:300px ;" />
+                          <h4>Cost Analysis</h4>
+                          <br>
+                      </div>
+                  </div>
+          <div class="col-md-4">
+                      <div class="full  ">
+                          <img class="img-responsive" src="images/bussiness_logic.jpeg" alt="Bussiness Logic" style="max-height:300px ;"/>
+              <h4>Bussiness Logic</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- end section -->
+      
+    <!-- Achievements section -->
+      <div class="section margin-top_50 padding silver_bg">
+          <div class="container">
+              <div class="row">
+            
+                  <div class="col-md-12">
+                      <div class="full">
+                          <div class="heading_main text_align_center">
+                 <h2><span>Achievements in </span>Static Events</h2>
+                          </div>
+              <div class="full">
+                <p>Team Drifters were in top 5 scorers in the
+                              static events of NEKC 2020.</p>
+              </div>
+            
+                      </div>
+                  </div>
+        </div>
+          </div>
+      </div>
+    <!-- end section -->
+    
+    <!-- Dynamic events section -->
+      <div class="section padding">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="full">
+                          <div class="heading_main text_align_center">
+                 <h2><span>Dynamic </span>Events</h2>
+                          </div>
+              </div>
+                  </div>
+          </div>
+                 <div class="row">
+                  <div class="col-lg-12">
+                      <div id="demo" class="carousel slide" data-ride="carousel">
+  
+                          <!-- The slideshow -->
+                          <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                  <div class="row">
+                                      <div class="col-lg-6 col-md-6 col-sm-12 offset-lg-3 offset-md-3">									   <div class="full  ">
+                                            <img class="img-responsive" src="images/acceleration.jpg" alt="Acceleration" />
+                        <h4>1. Acceleration & Brake Test</h4>
+                        <p>The car is accelerated from a standing position across a                                       distance of 75 meters. Again the
+                                              drivers of each team get two chances to master the challenge
+                                              and the fastest time counts. The Brake/ acceleration test for team
+                                              drifters was completed in within 8 secs.</p>
+                                              <br>
+                      </div>
+                                      </div>
+                                      
+                                  </div>
+                              </div>
+  
+  
+                              <div class="carousel-item">
+                                  <div class="row">
+                                      <div class="col-lg-6 col-md-6 col-sm-12 offset-lg-3 offset-md-3">									   <div class="full  ">
+                                          <img class="img-responsive" src="images/skidpad.jpeg" alt="Skidpad" />
+                                          <h4>2. Skidpad</h4>
+                                          <p>Two circles with a diameter of 15.25 meters each, forming an eight have
+                                            to be passed twice. Two drivers of each team have two tries to get
+                                            through the so called skidpad as quickly as possible. The fastest lap
+                                            time of all four trials is taken for judgement.</p>
+                                            <br>
+                                        </div>
+                                      </div>
+                                      
+                                  </div>
+                              </div>
+                              
+  
+                              <div class="carousel-item">
+                                  <div class="row">
+                                      <div class="col-lg-6 col-md-6 col-sm-12 offset-lg-3 offset-md-3">									   <div class="full  ">
+                                            <img class="img-responsive autocross" src="images/autocross.jpg" alt="Autocross" style="max-height: 350px;"/>
+                        <h4>3. Autocross</h4>
+                        <p>At the autocross event a 1 kilometer sprint circuit has to be
+                                              driven to show how easy the car is to drive. This circuit consists of
+                                              a straights, hair pin bends and slaloms. No training laps are
+                                              permitted and the best lap time is taken to determine the start
+                                              position in the endurance race. All teams supply two drivers
+                                              who have two tries. The fastest lap time of the four runs counts.</p>
+                                              <br>
+                                              <br>
+                      </div>
+                                      </div>
+                                      
+                                  </div>
+                              </div>
+  
+                              <div class="carousel-item">
+                                  <div class="row">
+                                      
+                                      <div class="col-lg-6 col-md-6 col-sm-12 offset-lg-3 offset-md-3">                                        <div class="full  ">
+                                            <img class="img-responsive" src="images/acceleration.jpg" alt="Acceleration" />
+                        <h4>4. Blind Test</h4>
+                        <p>During the blind test the driver who is blinded has to drive
+                                              through a track based on complete instincts and the
+                                              directions given to him by fellow team members. This event is
+                                              based completed on the driver’s comprehension and prowess
+                                              regarding the car’s judgement and instinct.</p>
+                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+  
+                              <div class="carousel-item">
+                                  <div class="row">
+                                      <div class="col-lg-6 col-md-6 col-sm-12 offset-lg-3 offset-md-3">
+                       <div class="full ">
+                                            <img class="img-responsive" src="images/endurance.jpeg" alt="Endurance" />
+                        <h4>5. Endurance</h4>
+                        <p>The final event was to be run as single heat approximately 75
+                                              mins . The team who finishes the endurance with the fastest
+                                              time and most number of laps wins. Teams were not allowed
+                                              to work on their vehicle during the heat. Wheel–to–wheel
+                                              racing was prohibited. The real test to the design and
+                                              fabrication of the vehicle is reflected in this event</p>
+                                              <br>
+                      </div>
+                                      </div>
+                                      
+                                  </div>
+                              </div>
+                          </div>
+  
+                          <!-- Left and right controls -->
+                          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                              <span class="carousel-control-prev-icon"></span>
+                          </a>
+                          <a class="carousel-control-next" href="#demo" data-slide="next">
+                              <span class="carousel-control-next-icon"></span>
+                          </a>
+  
+                      </div>
+                  </div>
+  
+              </div>			  
+             </div>
+          </div>
+      <!-- end section -->
+      
+      <!-- achievment section -->
+      <div class="section margin-top_50 padding silver_bg">
+          <div class="container">
+              <div class="row">
+            
+                  <div class="col-md-12 ">
+                      <div class="full">
+                          <div class="heading_main text_align_center">
+                 <h2><span>Achievements in </span>Dynamic Events</h2>
+                          </div>
+              <div class="full">
+                <p>Team Drifters secured AIR 4 by clearing all dynamic events in style.</p>
+                            <p>Team drifters represented by our skilled and capable driver Rishikesh
+                              Pore completed the <b>Skidpad</b> test in just about 56 seconds which is no
+                              less than a plain astonishment.</p>
+                            <p>The fastest lap time of the four runs counts.
+                              The Fastest lap out of the two that took place was completed
+                              in an outstanding time of 1 min and 13 secs by team drifters in <b>Autocross</b> round</p>
+                            <p>Our team completed 36 laps in 75 mins in <b>Endurance</b> round.</p>
+              </div>
+            
+                      </div>
+                  </div>
+        </div>
+          </div>
+      </div>
+      <!-- end section -->
+      
+      <!-- overall achievment section -->
+      <div class="section padding blue_bg">
+          <div class="container">
+              <div class="row">
+            
+                  <div class="col-md-12 ">
+                      <div class="full">
+                          <div class="heading_main text_align_center">
+                 <h2><span2>Overall </span2>Achievements</h2>
+                          </div>
+              <div class="full">
+                            <h3><span1>All India Ranking 1 </span1>- Virtual Round</h3>
+                            <h3><span1>All India Ranking 2 </span1>- Cost</h3>
+                            <h3><span1>All India Ranking 2 </span1>- Innovation</h3>
+                            <h3><span1>All India Ranking 3 </span1>- Bussiness Plan</h3>
+                            <h3><span1>All India Ranking 5 </span1>- Overall Dynamic</h3>
+                            <h3><span1>All India Ranking 5 </span1>- Endurance Racing</h3>
+                            <h3><span1>All India Ranking 5 </span1>- Design</h3>
+                            <h3><span1>All India Ranking 4 </span1>- Virtual Round (NEKC 2.0 2019) </h3>
+                            <h3><span1>All India Ranking 5 </span1>- Overall Event (NEKC 2.0 2019) </h3>
+
+                            <h3><span1>All India Ranking 1 </span1>- Overall Design (NEKC 1.0 2018)</h3>
+              </div>
+            
+                      </div>
+                  </div>
+        </div>
+          </div>
+      </div>
+
+            
+          <!-- end section -->
+    </section>
+
+        <!-- Footer-->
+        <footer>
+            <section id="contact">
+              <div class="container">
+                  <h2>Get In Touch</h2>
+                  <div class="row">
+      
+      
+                      <div class="col-md-3">
+                          <div class="address">
+                              <i class="fas fa-map-marker-alt"></i> </br>
+                              <h4>Address</h4>
+                              <address>
+                                  <a href="https://www.google.com/maps/place/BATU+Workshop/@18.1624358,73.3356816,17z/">
+                                      <span> Dbatumotorsports, Gangotri Workshop, <br>
+                                          Dr. Babasaheb Ambedkar Technological University, </br>
+                                          Lonere, 402104 </a> </span> </br>
+                              </address>
+                          </div>
+                      </div>
+      
+                      <div class="col-md-3">
+                          <div class="phone">
+                              <i class="fas fa-phone-square-alt"></i>
+                              <h4>Phone</h4>
+                              <a href="tel:+918828353433">+91 8828353433 </a>
+      
+                          </div>
+                      </div>
+      
+                      <div class="col-md-3">
+                          <div class="email">
+                              <i class="fas fa-envelope"></i>
+                              <h4>Email</h4>
+                              <h5>Team Technospark</h5>
+                              <a href="mailto:technospark.dbatu@gmail.com"> technospark.dbatu@gmail.com </a> </br>
+                              <h5>Team Drifters</h5>
+                              <a href="mailto:dbatudrifters@gmail.com"> dbatudrifters@gmail.com</a> </br>
+                          </div>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="social">
+                              <i class="fas fa-share-alt"></i>
+                              <h4>Social</h4>
+                              <h5>Team Technospark</h5>
+                              <a href="https://instagram.com/team_technospark_?igshid=eqgjrbj3ykcb"><i
+                                      class="fab fa-instagram"></i> </a>
+                              <a href="https://www.youtube.com/channel/UCYaMlNuh128LR1QuUSHRoYw"> <i
+                                      class="fab fa-youtube"></i> </a>
+      
+                              <h5>Team Drifters</h5>
+                              <a href="https://instagram.com/dbatudrifters?igshid=mtqbab44iff0"><i
+                                      class="fab fa-instagram"></i> </a>
+                              <a href="https://www.youtube.com/channel/UC2ePEOdlOwBeWqi99bq4ZPw"> <i
+                                      class="fab fa-youtube"></i> </a>
+      
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          </footer>
+          <!-- /Footer end-->
+        
+        
+        <script>
+    
+          // ------------------------------------------------------- //
+          //   Inject SVG Sprite - 
+          //   see more here 
+          //   https://css-tricks.com/ajaxing-svg-sprite/
+          // ------------------------------------------------------ //
+          function injectSvgSprite(path) {
+          
+              var ajax = new XMLHttpRequest();
+              ajax.open("GET", path, true);
+              ajax.send();
+              ajax.onload = function(e) {
+              var div = document.createElement("div");
+              div.className = 'd-none';
+              div.innerHTML = ajax.responseText;
+              document.body.insertBefore(div, document.body.childNodes[0]);
+              }
+          }
+          // this is set to Bootstrapious website as you cannot 
+          // inject local SVG sprite (using only 'icons/orion-svg-sprite.01205608.svg' path)
+          // while using file:// protocol
+          // pls don't forget to change to your domain :)
+          injectSvgSprite('https://demo.bootstrapious.com/varkala/1-1/icons/orion-svg-sprite.svg'); 
+          injectSvgSprite('https://demo.bootstrapious.com/varkala/1-1/icons/varkala-clothes.svg'); 
+          injectSvgSprite('https://demo.bootstrapious.com/varkala/1-1/img/shape/blob-sprite.svg'); 
+    
+    
+          
+        </script>
+        <!-- jQuery-->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/jquery/jquery.min.js"></script>
+        <!-- Bootstrap Bundle -->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Swiper Carousel                       -->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/swiper/js/swiper.min.js"></script>
+        <!-- Bootstrap Select-->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+        <!-- AOS - AnimationOnScroll-->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/aos/aos.js"></script>
+        <!-- Custom Scrollbar-->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/scrollbar.js"></script>
+        <!-- Smooth scroll-->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+        <!-- Object Fit Images - Fallback for browsers that don't support object-fit-->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/object-fit-images/ofi.min.js"></script>
+        <!-- jQuery Parallax - used mostly on the images in Hero section-->
+        <script src="https://d19m59y37dris4.cloudfront.net/varkala/1-2/vendor/jquery-parallax.js/parallax.min.js"></script>
+        <!-- Some theme config-->
+        <script>
+          var options = {
+              navbarExpandPx: 992
+          }
+          
+        </script>
+        <!-- Main Theme files-->
+        <script src="js/theme.js"></script>
+      </body>
+    </html>

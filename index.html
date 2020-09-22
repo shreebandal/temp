@@ -54,8 +54,11 @@
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
           }
-
-          
+          @media only screen and (max-width: 600px) {
+              .temp {
+                background: rgba(0, 0, 0, 0.7);
+              }
+            }
            
             </style>
             <script src="js/onload.js"></script>
@@ -112,7 +115,7 @@
           <div class="swiper-slide bg-cover" style="background-image: url('images/endurance.jpeg');">
             <div class="container-fluid px-lg-6 px-xl-7 h-100">
               <div class="row h-100 align-items-center" data-swiper-parallax="-500">
-                <div class="col-lg-4 offset-lg-8">
+                <div class="col-lg-6 offset-lg-8 py-4 temp">
                   <h2 class="display-3 mb-3" style="line-height: 1;color:#fff;">DBATURacing</h2><a class="btn btn-info" href="#events">Explore</a>
                 </div>
               </div>
